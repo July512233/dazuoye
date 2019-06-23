@@ -1,0 +1,250 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web大作业</title>
+	<style type="text/css">
+		#main{
+			width: 1920px;
+			height: 3000px;
+			border:1px solid black;
+			margin:0 auto;
+			position: relative;
+		}
+		#top{
+			width: 1920px;
+			height: 185px;
+			position: relative;
+			border: 1px solid white;
+		}
+		#logo{
+			position: absolute;
+			top: 60px;
+			left: 360px;
+		}
+		#xiang{
+			width: 66px;
+			height: 600px;
+			position: fixed;
+			right: 00px;
+			top: 197px;
+			display: block;
+			background-color: black;
+		}
+		.x{
+			width: 65px;
+			height: 119px;
+			border-bottom: 2px solid grey;
+			position: relative;
+		}
+		.x img{
+			position: absolute;
+			top: 35%;
+			left: 25%;
+		}
+		#search{
+			width: 590px;
+			height: 50px;
+			border:1px solid black;
+			margin-left: 780px;
+			margin-top: 70px;
+			position: relative;
+		}
+		#sousuo{
+			width: 520px;
+			height: 50px;
+			color: grey;
+			border-style: none;
+			text-align: center;
+		}
+		#biao>li{
+			display: inline-block;
+			padding-left: 49px;
+			text-align: center;
+		}
+		#biao>li>h4{
+			width: 64px;
+			height: 28px;
+		}
+		#biao{
+			margin-top: 10px;
+			margin-left: 270px;
+		}
+		#biao>li>h4:hover{
+			color: green;
+			border-bottom: 5px solid green;
+		}
+		#body{
+			width: 1200px;
+			height: 180px;
+			position: absolute;
+			top: 920px;
+			left: 20%;
+		}
+		.yt{
+			width: 1200px;
+			height: 59px;
+			position: relative;
+		}
+		#body>.yt>ul>li{
+			display: inline-block;
+		}
+		#body>.yt>ul>li>h4{
+			padding-left: 95px;
+			color: grey;
+		}
+		#body>.yt>ul{
+			position: absolute;
+			top: -20px;
+		}
+		#secondbon{
+			width: 1920px;
+			height: 140px;
+			background-color: rgb(224,224,224);
+			position: absolute;
+			top: 2000px;
+		}
+		.we{
+			width: 300px;
+			height: 80px;
+			border-right: 3px solid grey;
+			padding-top: 15px;
+		}
+		.we>h4{
+			position: relative;
+			right: -100px;
+		}
+		.we>h3{
+			position: relative;
+			right: 125px;
+		}
+		#bon{
+			background-color: black;
+			width: 1920px;
+			height: 130px;
+			position: absolute;
+			top: 2110px;
+		}
+		#bon>p{
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div id="top">
+			<a href="#" style="position: absolute;top: -5px;left:870px;color: black;text-decoration-line: none;">嘿，欢迎来买猜商城！</a>
+			<a href="#" style="position: absolute;top: -25px;left:1050px;"><h4 style="color:black; text-decoration-line: none;">请登录</h4></a>
+			<a href="#" style="position: absolute;top: -25px;left:1130px;"><h4 style="color:black; text-decoration-line: none;">免费注册</h4></a>
+			<a href="#" style="position: absolute;top: -5px;left:1230px;color: black;text-decoration-line: none;">我的订单</a>
+			<div style="width: 80px; height: 25px; position: absolute; left: 1310px; top:-5px;">
+				<img src="./image/san.png" style="padding-top: 5px;">
+				<a href="#" style="color:black;text-decoration-line: none;float: right;">我的买猜</a>
+			</div>
+			<div style="width: 85px; height: 25px; position: absolute; left: 1400px; top:-5px;">
+				<img src="./image/san.png" style="padding-top: 5px; float: left;">
+				<a href="#" style="color:black;text-decoration-line: none;float: right;">帮助中心</a>
+			</div>
+			<img src="./image/wb.png" style="position: absolute;left: 1512px;">
+			<img src="./image/wx.png" style="position: absolute;left: 1540px;">
+			<img src="./image/logo.png" id="logo">
+			<div id="search">
+				<input type="text" name="sousuo" value="请输入搜索内容" id="sousuo">
+				<img src="./image/search.png" style="position: absolute;right: 15px;top: 7px;">
+			</div>
+			<img src="./image/cart.png" style="position: absolute;right: 366px;top: 90px;">
+			<ul id="biao" >
+					<li><h3>全部商品分类<h3/><img src="./image/san.png" style="position: absolute;top: 160px;left: 480px;"></li>
+					<li><h4>首页<h4/></li>
+					<li><h4>名酒<h4/></li>
+					<li><h4>茗茶<h4/></li>
+					<li><h4>玉石<h4/></li>
+					<li><h4>休闲食品<h4/></li>
+					<li><h4>洗护用品<h4/></li>
+					<li><h4>土特产<h4/></li>
+					<li><h4>积分商城<h4/></li>
+					<li><h4>抽奖游戏<h4/></li>
+			</ul>
+		</div>
+		<div id="secondtop" style="position: relative;">
+			<img src="./image/banner.png">
+			<div id="xiang">
+				<div class="x"><img src="./image/cart1.png"></div>
+				<div class="x"><img src="./image/qq.png"></div>
+				<div class="x"><img src="./image/zuji.png"></div>
+				<div class="x"><img src="./image/erweima.png"></div>
+				<div class="x"><img src="./image/gotop.png"></div>
+			</div>
+		</div>
+		<h3 style="position: absolute;left: 400px;">首 页</h3>
+		<h3 style="color: grey;position: absolute;left: 470px;">> 玉石</h3>
+		<h4 style="color: grey;position: absolute;right: 330px;">共200件相关商品</h4>
+		<div id="body">
+			<div class="yt" style="border-top: 1px solid grey;border-bottom: 1px solid grey;">
+				<ul>
+					<li style="background-color: grey;width: 100px;height: 58px;position: absolute;left: -3px;top: 4px;text-align: center;"><h3>玉石</h3></li>
+					<li><h4>白玉</h4></li>
+					<li><h4>碧玉</h4></li>
+					<li><h4>黄玉</h4></li>
+					<li><h4>和田玉</h4></li>
+					<li><h4 style="color: green;">翡翠</h4></li>
+					<li><h4>绿松玉</h4></li>
+					<li><h4>墨玉</h3></li>
+				</ul>
+			</div>
+			<div class="yt" style="border-top: 1px solid grey;border-bottom: 1px solid grey;">
+				<ul>
+					<li style="background-color: grey;width: 100px;height: 58px;position: absolute;left: -3px;top: 4px;text-align: center;"><h3>其他</h3></li>
+					<li><h4 style="color: green;">吊坠</h4></li>
+					<li><h4>扳指</h4></li>
+					<li><h4>手镯</h4></li>
+				</ul>
+			</div>
+			<div class="yt" style="border-top: 1px solid grey;border-bottom: 1px solid grey;">
+				<ul>
+					<li style="background-color: grey;width: 100px;height: 58px;position: absolute;left: -3px;top: 4px;text-align: center;"><h3 style="background-color: grey">地区</h3></li>
+					<li><h4>北京</h4></li>
+					<li><h4>安徽</h4></li>
+					<li><h4>福建</h4></li>
+					<li><h4>内蒙古</h4></li>
+					<li><h4>宁夏</h4></li>
+					<li><h4>黑龙江</h4></li>
+					<li><h4>河北</h4></li>
+					<li style="position: absolute;right: -190px;top: 0px;"><h4>更多</h4></li>
+				</ul>
+			</div>
+		</div>
+		<div id="wea" style="width: 1200px;height: 610px;border: 1px solid black;position: absolute;left: 385px;top: 1180px;">
+				<img src="./image/img1.png">
+				<img src="./image/img2.png" style="position: absolute;left: 350px; top: 40px;">
+				<img src="./image/img3.png" style="position: absolute;left: 650px; top: 40px;">
+				<img src="./image/img4.png" style="position: absolute;left: 950px; top: 40px;">
+				<img src="./image/img5.png" style="position: absolute;left:0px;top: 350px;">
+				<img src="./image/img6.png" style="position: absolute;left:350px;top: 350px;">
+				<img src="./image/img7.png" style="position: absolute;left:650px;top: 350px;">
+				<img src="./image/img8.png" style="position: absolute;left:950px;top: 350px;">
+		</div>
+		<div id="secondbon">
+			<div class="we" style="position: absolute;left: 350px;">
+				 <img src="./image/f1.png" style="float:">
+					<h3 style="float: right;">资质认证</h3><h4>服务商100%实名认证</h4>
+			</div>
+			<div class="we" style="position: absolute;left: 700px;">
+				<img src="./image/f2.png">
+				<h3 style="float: right;">支付安全</h3><h4>明码标价支付及信息安全</h4>
+			</div>
+			<div class="we" style="position: absolute;left: 1050px;">
+				<img src="./image/f3.png">
+				<h3 style="float: right;">保险赔付</h3><h4>为您提供担保赔付</h4>
+			</div>
+			<div class="we" style="position: absolute;left: 1400px;">
+				<img src="./image/f1.png">
+				<h3 style="float: right;">售后无忧</h3><h4>服务出问题经理全程跟进</h4>
+			</div>
+		</div>
+		<div id="bon">
+			<p>首页 | 工商代理 | 财务代记账 | 股权交易与变更 | 企业贷款 | 办公室租赁 | 社保公积金代理 | 法律服务</p>
+			<p><img src="./image/biao.png">2017-2018 买猜商城有限公司 版权所有</p>
+		</div>
+</html>
